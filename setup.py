@@ -63,7 +63,7 @@ setup(
     platforms=['Windows 10', 'Windows Server 2008', 'Windows Server 2012',
                'Linux'],  # Optional
     packages=find_packages(exclude=[]),  # Required
-    python_requires='>=3.7, <3.8',
+    python_requires='>=3.7',
     url='https://github.com/soroco/pyce',  # Optional
     version=__version__,  # Required
 )
